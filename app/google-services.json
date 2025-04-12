@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "136194090520",
+    "project_id": "signindemo-12af7",
+    "storage_bucket": "signindemo-12af7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136194090520:android:b78d6fff048507be79456d",
+        "android_client_info": {
+          "package_name": "com.example.googlesignindemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw3FL59wDRWZdy63u5al-8DcsvbJOKmpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
