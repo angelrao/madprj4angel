@@ -5,7 +5,7 @@ import android.util.Log;
 import android.widget.Toast;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
-import androidx.annotation.NonNull;
+import com.google.android.gms.tasks.Task;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.gms.auth.api.signin.*;
 import com.google.android.gms.common.api.ApiException;

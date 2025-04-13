@@ -8,7 +8,6 @@ import com.google.android.gms.auth.api.signin.*;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeActivity extends AppCompatActivity {
-
     private FirebaseAuth mAuth;
     private GoogleSignInClient googleSignInClient;
 

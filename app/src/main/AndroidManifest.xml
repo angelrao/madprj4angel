@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.googlesignindemo">
+    package="com.example.madprj4angel">
 
-    <!-- Required for Firebase Authentication -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:label="GoogleSignInDemo"
         android:icon="@mipmap/ic_launcher"
+        android:label="GoogleSignInDemo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GoogleSignInDemo">
+        android:theme="@style/Theme.Madprj4angel"> <!-- Make sure this matches your actual theme name -->
 
-        <!-- Home page shown after successful login -->
-        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
 
-        <!-- Launcher Activity -->
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -27,3 +28,4 @@
     </application>
 
 </manifest>
+
